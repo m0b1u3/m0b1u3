@@ -1,36 +1,29 @@
 <div align="center">
 
-  <h1>Hi there, I'm <a href="https://github.com/OoO7ce">m0b1u3</a></h1>
-  <h3>Security Researcher & Bug Hunter</h3>
+<img src="./assets/terminal.svg" width="100%" alt="m0b1u3@lab — Security Researcher · Bug Hunter · AI Security Explorer" />
 
-  <!-- Profile Picture -->
-  <img src="https://lh3.googleusercontent.com/-iD8SZAU9rgc/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfklVKpl7K8R66BPRn6w5U189fwAKUw/photo.jpg" width="120" style="border-radius: 50%;" />
+<br/><br/>
 
-  <!-- About Me -->
-  <p style="font-size: 1.1em; color: #666;">
-    <strong>Security Researcher</strong> | Bug Bounty Hunter | Pentester | Defense Research
-  </p>
+<a href="https://pwned.icu"><img src="./assets/link-website.svg" height="42" alt="Visit pwned.icu" /></a>
+&nbsp;
+<a href="https://github.com/m0b1u3"><img src="./assets/link-profile.svg" height="42" alt="GitHub profile" /></a>
+&nbsp;
+<a href="https://github.com/m0b1u3?tab=repositories"><img src="./assets/link-repositories.svg" height="42" alt="Browse repositories" /></a>
 
-  <!-- Tech Stack Badges -->
-  <div>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  </div>
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/profile-summary.svg" width="100%" alt="Public GitHub profile statistics and selected repository languages — updated daily" />
 
 </div>
 
----
+<br/>
 
-<div align="center">
+```sh
+$ contributions --snake
+```
 
-  <!-- Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OoO7ce/OoO7ce/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OoO7ce/OoO7ce/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/OoO7ce/OoO7ce/output/github-contribution-grid-snake.svg">
-  </picture>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake animation">
+</picture>
