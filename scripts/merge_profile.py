@@ -13,7 +13,8 @@ def tag(name, **attrs):
 
 
 def render(original, animation):
-    root = ET.fromstring(original)
+    # Change the accent only in the generated copy, preserving the source SVG.
+    root = ET.fromstring(original.replace('#FFB347', '#FF79C6'))
     root.set('height', str(H))
     root.set('viewBox', f'0 0 1200 {H}')
     root.set('aria-label', 'm0b1u3 security researcher profile, website, lab and contribution animation')
@@ -131,6 +132,7 @@ def main():
     combined = render(original.decode('utf-8'), animation)
     output.write_text(combined, encoding='utf-8')
     output.with_name('profile-sequence.svg').write_text(combined, encoding='utf-8')
+    output.with_name('profile-sequence-pink.svg').write_text(combined, encoding='utf-8')
     assert hashlib.sha256(source.read_bytes()).digest() == digest
     print(f'Generated {output}; original terminal.svg unchanged')
 
