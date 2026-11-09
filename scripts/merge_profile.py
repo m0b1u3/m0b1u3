@@ -46,8 +46,9 @@ def render(original, animation):
     defs = next(n for n in root if n.tag == f'{{{NS}}}defs')
     extra_style = tag('style')
     extra_style.text = """
-.profile-graph-reveal{transform:scaleY(0);transform-origin:0 0;animation:profile-graph-in .7s steps(7,end) 12.45s forwards}
+.profile-graph-reveal{transform:scaleY(0);transform-origin:0 0;animation:profile-graph-in .7s steps(7,end) 12.45s forwards,profile-graph-open .01s linear 13.20s forwards}
 @keyframes profile-graph-in{to{transform:scaleY(1)}}
+@keyframes profile-graph-open{from,to{transform:scaleY(1)}}
 #profile-snake *{animation-delay:12.45s!important}
 @media(prefers-reduced-motion:reduce){.profile-graph-reveal{animation:none!important;transform:scaleY(1)!important}#profile-snake *{animation:none!important}}
 """
