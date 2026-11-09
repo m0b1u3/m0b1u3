@@ -36,6 +36,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Frame contribution animation
         run: python3 scripts/frame_contributions.py
+      - name: Merge profile terminal
+        run: python3 scripts/merge_profile.py
       - name: Publish generated assets
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
