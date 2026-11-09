@@ -128,7 +128,9 @@ def main():
     digest = hashlib.sha256(original).digest()
     animation = Path('dist/github-contribution-grid-snake-dark.svg').read_text(encoding='utf-8')
     output = Path('dist/profile-combined.svg')
-    output.write_text(render(original.decode('utf-8'), animation), encoding='utf-8')
+    combined = render(original.decode('utf-8'), animation)
+    output.write_text(combined, encoding='utf-8')
+    output.with_name('profile-sequence.svg').write_text(combined, encoding='utf-8')
     assert hashlib.sha256(source.read_bytes()).digest() == digest
     print(f'Generated {output}; original terminal.svg unchanged')
 
