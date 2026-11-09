@@ -12,7 +12,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/profile-summary.svg" width="100%" alt="Public GitHub profile statistics and selected repository languages — updated daily" />
+<img src="https://raw.githubusercontent.com/m0b1u3/m0b1u3/output/profile-summary.svg?v=1" width="100%" alt="Public GitHub profile statistics and selected repository languages — updated daily" />
 
 </div>
 
